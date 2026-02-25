@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>DoQA Flow | Product Landing Page</title>
+    <link href="styles.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Source+Sans+3:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="./src/logo_doqa.webp" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="brand">
+        <img
+          id="header-img"
+          src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=240&q=80"
+          alt="DoQA Flow logo"
+        />
+        <span>DoQA Flow</span>
+      </div>
+
+      <nav id="nav-bar">
+        <a class="nav-link" href="#features">Features</a>
+        <a class="nav-link" href="#workflow">Workflow</a>
+        <a class="nav-link" href="#demo">Demo</a>
+        <a class="nav-link" href="#pricing">Pricing</a>
+      </nav>
+
+      <a class="header-cta" href="#form">Get Early Access</a>
+    </header>
+
+    <main>
+      <section class="hero" id="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Quality at the speed of shipping</p>
+          <h1>Catch product issues before your users do.</h1>
+          <p>
+            DoQA Flow stitches together automated checks, human review, and
+            release checklists so every launch feels deliberate.
+          </p>
+          <div class="hero-actions">
+            <a class="primary" href="#form">Request a pilot</a>
+            <a class="secondary" href="#demo">Watch the demo</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <h2>Release Readiness</h2>
+          <p>Score each launch with coverage, regression, and UX signals.</p>
+          <ul class="metrics">
+            <li>
+              <span class="metric-value">92%</span>
+              <span class="metric-label">automated coverage</span>
+            </li>
+            <li>
+              <span class="metric-value">48h</span>
+              <span class="metric-label">faster QA cycles</span>
+            </li>
+            <li>
+              <span class="metric-value">3x</span>
+              <span class="metric-label">fewer hotfixes</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" id="features">
+        <div class="section-title">
+          <h2>Everything your release team needs</h2>
+          <p>From test orchestration to launch checklists, keep quality visible.</p>
+        </div>
+        <div class="feature-grid">
+          <article>
+            <h3>Signal-driven dashboards</h3>
+            <p>Track failures by platform, surface regressions, and flag risky builds.</p>
+          </article>
+          <article>
+            <h3>Human + automated reviews</h3>
+            <p>Blend test automation with targeted QA sessions to cover the edges.</p>
+          </article>
+          <article>
+            <h3>Launch checklists</h3>
+            <p>Turn tribal knowledge into repeatable checklists for every release.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section workflow" id="workflow">
+        <div>
+          <h2>Workflow that fits your team</h2>
+          <p>
+            Connect your CI, issue tracker, and product analytics to get a clear
+            release signal in one place.
+          </p>
+        </div>
+        <ol class="steps">
+          <li>Connect GitHub, Jira, and Playwright.</li>
+          <li>Auto-generate release health summaries.</li>
+          <li>Approve, ship, and learn from post-launch insights.</li>
+        </ol>
+      </section>
+
+      <section class="section demo" id="demo">
+        <div class="section-title">
+          <h2>Watch the product in action</h2>
+          <p>See how release owners review and sign off with confidence.</p>
+        </div>
+        <div class="video-shell">
+          <iframe
+            id="video"
+            src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+            title="DoQA Flow demo video"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+
+      <section class="section pricing" id="pricing">
+        <div class="section-title">
+          <h2>Pricing built for growing teams</h2>
+          <p>Choose the level of coverage that matches your release cadence.</p>
+        </div>
+        <div class="price-cards">
+          <article>
+            <h3>Launch</h3>
+            <p class="price">$249/mo</p>
+            <p>For teams shipping twice a month.</p>
+          </article>
+          <article class="featured">
+            <h3>Momentum</h3>
+            <p class="price">$499/mo</p>
+            <p>Best for weekly releases and QA squads.</p>
+          </article>
+          <article>
+            <h3>Enterprise</h3>
+            <p class="price">Custom</p>
+            <p>Multi-org reporting and dedicated QA strategy.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section signup" id="signup">
+        <div>
+          <h2>Join the private beta</h2>
+          <p>Get the playbook, templates, and product updates first.</p>
+        </div>
+        <form id="form" action="https://www.freecodecamp.org/email-submit">
+          <input
+            id="email"
+            name="email"
+            type="email"
+            placeholder="Enter your work email"
+            required
+          />
+          <input id="submit" type="submit" value="Request access" />
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
